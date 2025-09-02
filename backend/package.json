@@ -1,0 +1,31 @@
+{
+  "name": "mestre-das-passagens-backend",
+  "version": "1.0.0",
+  "description": "API REST para busca de passagens aéreas usando Amadeus API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flights",
+    "amadeus",
+    "travel",
+    "api",
+    "passagens",
+    "aereas"
+  ],
+  "author": "Mestre das Passagens",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
